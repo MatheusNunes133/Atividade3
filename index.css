@@ -101,7 +101,7 @@ main#conteudo_principal p a {
 }
 main#conteudo_principal p a:hover{
     color: white;
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 footer#rodape{
