@@ -7,7 +7,17 @@
 body{
     background-color: black;
 }
-
+/*inicio*/
+nav#menu{
+    background-image: url(./Imagens/Inicio.jpg);
+    background-attachment: fixed;
+    height: 520px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 58px;
+    background-position-x: 0px;
+}
 nav#menu ul{
     margin: 0;
     background-color: white;
