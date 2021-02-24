@@ -16,6 +16,7 @@ nav#menu{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 50px;
+    width: 100%;
 }
 nav#menu ul{
     margin: 0;
@@ -82,4 +83,32 @@ main#conteudo_principal p {
     padding: 10px;
     margin: 20px;
     text-indent: 20px;
+}
+
+main#conteudo_principal iframe{
+    position: absolute;
+    margin-left: 150px;
+    border: 1px solid white;
+    padding: 3px;
+}
+main#conteudo_principal p a {
+    position: absolute;
+    text-decoration: none;
+    color: gray;
+    right: 600px;
+    top: 37cm;
+    transition: 0.2s;
+}
+main#conteudo_principal p a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+footer#rodape{
+    margin-top: 480px;
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
 }
