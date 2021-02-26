@@ -94,7 +94,41 @@ main#conteudo_principal img{
 main div#legenda_imagens p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 12pt;
-    margin-left: 640px;
+    margin-left: 630px;
     color:white;
     margin-top: 0px;
+    text-decoration: underline;
+}
+main#conteudo_principal div#outrosJogos{
+    margin-left: 340px;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+/*Rodape*/
+footer#rodape{
+    margin-top: 100px;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    padding: 20px;
+}
+footer#rodape p{
+    color: red;
+
+
+
+}
+footer div#voltar_inicio p a{
+    position: absolute;
+    color: black;
+    right: 60px;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+footer div#voltar_inicio p a:hover{
+    margin
+    color: red;
+    text-decoration: underline;
 }
