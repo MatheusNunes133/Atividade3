@@ -7,9 +7,10 @@
 body{
     background-color: black;
 }
+
 /*Menu*/
 nav#menu{
-    background-image: url(./Imagens/Inicio.jpg);
+    background-image: url(./Imagens/Entrar\ em\ contato\ imagem.jpg);
     background-attachment: scroll;
     height: 520px;
     width: 100%;
@@ -18,18 +19,21 @@ nav#menu{
     background-position-y: 50px;
     background-size: cover;
 }
+
 nav#menu ul{
     background-color: white;
     width: 100%;
     height: 58px;
     list-style: none;
 }
+
 nav#menu ul li{
     display: inline-block;
     margin-top: 15px;
     margin-left: 40px;
     margin-right: 8px;
 }
+
 nav#menu ul li a{
     padding: 10px;
     text-decoration: none;
@@ -38,16 +42,19 @@ nav#menu ul li a{
     font-family: 'Times New Roman', Times, serif;
     transition: 0.1s;
 }
+
 nav#menu ul li a span{
     padding: 12px;
     border-bottom: 3px solid black;
     transition: 0.1s;
 }
+
 nav#menu ul li a span:hover{
     color: red;
     border-bottom: 3px solid red;
     padding: 12px;
 }
+
 nav#menu ul li a:hover{
     color: red;
     border-bottom: 3px solid red;
@@ -63,6 +70,7 @@ main#conteudo_principal{
     margin-top: 50px;
     margin-left: auto; 
 }
+
 main#conteudo_principal h1 {
     display: grid;
     text-align: center;
@@ -70,6 +78,7 @@ main#conteudo_principal h1 {
     border-bottom: 3px solid white;
     padding: 10px;
 }
+
 main#conteudo_principal h2 {
   font-size: 18pt;
   text-indent: 60px;
@@ -77,6 +86,7 @@ main#conteudo_principal h2 {
   padding: 50px;
   text-decoration: underline;
 }
+
 main#conteudo_principal p {
     text-align: justify;
     padding: 10px;
@@ -87,20 +97,105 @@ main#conteudo_principal p {
 /*Formulário*/
 main#conteudo_principal form {
     margin-left: 100px;
+    margin-right: 300px;
     padding: 20px;
     border: 1px solid white;
-    
+    border-radius: 9px;
+    background-image: url(./Imagens/Formulário\ imagem.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 main#conteudo_principal form label {
     font-family: "Times New Roman", Times, serif;
     font-size: 13pt;
     padding: 15px;
+    color: white;
 }
-main#conteudo_principal input{
-    width: 400px;
-    height: 18px;
-}
-main#conteudo_principal :placeholder-shown{
+
+main#conteudo_principal form input{
+    border-radius: 3px;
     font-size: 12pt;
+    width: 400px;
+    height: 27px;
+    border: none;
+}
+
+main#conteudo_principal form input:placeholder-shown{
+    font-size: 13pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main#conteudo_principal form select{
+    width: 110px;
+    font-size: 12pt;
+    border-radius: 3px;
+    border: none;
+}
+
+main#conteudo_principal form select option{
+    font-size: 12pt;
+}
+
+main#conteudo_principal form button{
+    font-family: 'Times New Roman', Times, serif;
+    width: 190px;
+    height: 30px;
+    background-color: rgb(112, 112, 192);
+    font-size: 14pt;
+    display: block;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+main#conteudo_principal form button:hover{
+    background-color: red;
+    box-shadow: 3px 8px 6px black;
+}
+
+main#conteudo_principal form textarea{
+    width: 500px;
+    height: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    border: none;
+    border-radius: 5px;
+    background-attachment: fixed;
+    margin-left: 15px;
+}
+
+main#conteudo_principal form textarea:placeholder-shown{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+
+/*Rodape*/
+footer#rodape{
+    margin-top: 100px;
+    background-color: white;
+    height: 66px;
+    text-align: center;
+    padding: 20px;
+}
+footer#rodape p#meuEmail{
+    margin-top: 13px;
+    text-align: center;
+}
+
+footer div#voltar_inicio p a{
+    position: absolute;
+    right: 60px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+footer div#voltar_inicio p a:hover{
+    color: red;
+    text-decoration: underline;
 }
 

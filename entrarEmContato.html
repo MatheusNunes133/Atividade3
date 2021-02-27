@@ -24,15 +24,15 @@
         <h2>Preencha o Formulário:</h2>
         
         <!--Formulário-->
-        <form action="" method="POST">
+        <form action="https://formspree.io/f/xeqpbepd" method="POST">
             <!--Requesitos-->
             <div>
                 <label for="">Nome:</label>
-                <input name="nome" placeholder="Digite seu Nome" type="text" required="required">
+                <input name="nome" placeholder=" Digite seu Nome..." type="text" required="required">
             </div><br>
             <div>
                 <label for="">Email:</label>
-                <input name="Email" placeholder="Digite seu Email" type="text" required="required">
+                <input name="Email" placeholder=" Digite seu Email..." type="text" required="required">
             </div><br>
             <div>
                 <label for="">Selecione sua Cidade:</label>
@@ -49,17 +49,28 @@
                 </select>
             </div><br>
             <div>
-                <label for="">Sua Foto:</label>
-                <input name="foto" type="file" required="option">
-            </div><br>
-            <div>
                 <label for="">Mande uma Mensagem:</label><br>
-                <textarea name="Mensagem" placeholder="Mande uma mensagem" cols="60" rows="10" required="required"></textarea>
-            </div>
+                <textarea name="Mensagem" required="required" placeholder=" Escreva uma mensagem..." maxlength="1000"></textarea>
+            </div><br><br>
             <div>
                 <button type="submit">Enviar Formulário</button>
             </div>
         </form>
     </main>
+
+    <!--Rodape-->
+    <footer id="rodape">
+        <p>
+            Desenvolvedor: Matheus Nunes Miguel    
+        </p>
+        <p id="meuEmail">
+            Email: matheusnunesmiguel6@gmail.com
+        </p>
+         <div id="voltar_inicio">
+            <p>
+                <a href="./entrarEmContato.html#menu">Voltar ao Início</a>
+            </p>        
+        </div>
+    </footer>
 </body>
 </html>

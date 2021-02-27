@@ -106,10 +106,16 @@ footer#rodape{
     margin-top: 480px;
     background-color: white;
     background-size: cover;
-    height: 30px;
+    height: 66px;
     text-align: center;
     padding: 20px;
 }
+
+footer#rodape p#meuEmail{
+    margin-top: 13px;
+    text-align: center;
+}
+
 footer div#voltar_inicio p a{
     position: absolute;
     color: black;
