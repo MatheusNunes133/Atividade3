@@ -1,6 +1,6 @@
 #  Página sobre a franquia Gof Of War
 * Descrição: Esta página tem como objetivo informar aos usuários e amantes sobre a história da saga God Of War.
-# Instalação
+# Instalação de uma cópia do codigo
 * 1º passo: Faça um **fork** desse repositório para dentro da sua conta no github;
 * 2º passo: Crie uma pasta local na sua máquina e inicie o git nela;
 * 3º passo: Copie o link do fork na sua conta no github;
