@@ -7,3 +7,5 @@
 * 4º passo: Abra o git bash na pasta que o git foi iniciado;
 * 5º passo: Digite o seguinte código: ``git clone link_do_repositório ``
 * Pronto, você ja está com uma cópia desse código na sua pasta local.
+# Contribuidores
+* [Matheus Nunes Miguel](https://github.com/MatheusNunes133)
