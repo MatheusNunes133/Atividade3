@@ -1,2 +1,2 @@
 #  Página sobre a franquia Gof Of War
-* Uma página que tem como objetivo informar a história da saga Gof of War
+* Descrição: Esta página tem como objetivo informar aos usuários e amantes sobre a história da saga God Of War.
