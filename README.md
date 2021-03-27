@@ -1,4 +1,4 @@
-#  Página sobre a franquia Gof Of War
+#  Página sobre a franquia Gof Of War [GitHub](https://img.shields.io/badge/Vers%C3%A3o-1.0-green)
 * Descrição: Esta página tem como objetivo informar aos usuários e amantes sobre a história da saga God Of War.
 # Instalação de uma cópia do codigo
 * 1º passo: Faça um **fork** desse repositório para dentro da sua conta no github;
